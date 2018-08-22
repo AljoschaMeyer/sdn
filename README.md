@@ -136,7 +136,7 @@ All other pairs of elements (in particular elements of different types) are uneq
 
 There can be multiple encodings of some value that decode to that same value. In some settings (e.g. when working with content-addressable storage), this ambiguity is harmful. This section describes a canonical way of encoding data to prevent these problems.
 
-The canonical encoding somewhat defeats the point of a human-readable format, since it normalizes away all whitespace. For this reason, it might be better to use a more efficient (and in the case of floats less painful) binary encoding. For this to work, there has to be a bijection between valid canonical sdn encodings and valid cnonical binary encodings.
+The canonical encoding somewhat defeats the point of a human-readable format, since it normalizes away all whitespace. For this reason, it might be better to use a more efficient (and in the case of floats less painful) binary encoding. For this to work, there has to be a bijection between valid canonical sdn encodings and valid canonical binary encodings.
 
 The sources of non-unique encodings are:
 
